@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sudoku.solver.controllers.SudokuSolverControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-03-26T21:09:31" hostname="ivandJRFWM.vmware.com" time="0.176">
+  <properties/>
+  <testcase name="testSolve_UnsolvablePuzzle()" classname="com.sudoku.solver.controllers.SudokuSolverControllerTest" time="0.151"/>
+  <testcase name="testSolve_InvalidPuzzle()" classname="com.sudoku.solver.controllers.SudokuSolverControllerTest" time="0.004"/>
+  <testcase name="testSolve_ValidPuzzle()" classname="com.sudoku.solver.controllers.SudokuSolverControllerTest" time="0.018"/>
+  <system-out><![CDATA[00:09:30.405 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [SudokuSolverControllerTest]: using SpringBootContextLoader
+00:09:30.410 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.sudoku.solver.controllers.SudokuSolverControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+00:09:30.410 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sudoku.solver.controllers.SudokuSolverControllerTest]: SudokuSolverControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:09:30.438 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [SudokuSolverControllerTest]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ImportsContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+00:09:30.494 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/Users/ivand/Documents/GitHub/RESTSudokuSolver/build/classes/java/main/com/sudoku/solver/SudokuSolverApplication.class]
+00:09:30.495 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.sudoku.solver.SudokuSolverApplication for test class com.sudoku.solver.controllers.SudokuSolverControllerTest
+00:09:30.555 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+00:09:30.556 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+00:09:30.557 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [SudokuSolverControllerTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+00:09:30.559 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [SudokuSolverControllerTest], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.5)
+
+2023-03-27T00:09:30.743+03:00  INFO 19567 --- [    Test worker] c.s.s.c.SudokuSolverControllerTest       : Starting SudokuSolverControllerTest using Java 19.0.2 with PID 19567 (started by ivand in /Users/ivand/Documents/GitHub/RESTSudokuSolver)
+2023-03-27T00:09:30.744+03:00  INFO 19567 --- [    Test worker] c.s.s.c.SudokuSolverControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2023-03-27T00:09:31.727+03:00  INFO 19567 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-03-27T00:09:31.727+03:00  INFO 19567 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-03-27T00:09:31.729+03:00  INFO 19567 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-03-27T00:09:31.750+03:00  INFO 19567 --- [    Test worker] c.s.s.c.SudokuSolverControllerTest       : Started SudokuSolverControllerTest in 1.158 seconds (process running for 2.024)
+]]></system-out>
+  <system-err><![CDATA[[2023.03.27 00:09:30] (Coverage): Error during class instrumentation: org.springframework.boot.logging.log4j2.Log4J2LoggingSystem: java.lang.RuntimeException: java.io.IOException: Class org/apache/logging/log4j/core/config/composite/CompositeConfiguration not found
+[2023.03.27 00:09:30] (Coverage): Error during class instrumentation: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport: java.lang.RuntimeException: java.io.IOException: Class jakarta/validation/ValidatorFactory not found
+]]></system-err>
+</testsuite>
